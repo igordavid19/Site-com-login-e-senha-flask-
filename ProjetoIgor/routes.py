@@ -16,7 +16,7 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/contatos-fofinhos')
+@app.route('/contatos')
 def contato():
     return render_template('contato.html')
 
